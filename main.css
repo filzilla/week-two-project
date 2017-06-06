@@ -1,0 +1,208 @@
+*{
+  box-sizing: border-box;
+}
+img{
+  display: block;
+}
+
+body{
+  font-family:  'PT Sans', sans-serif;
+  background-color: #FFFFFF;
+}
+.header-wrapper{
+  height: 240px;
+  width: 100%;
+  display: flex;
+  color: #FFFFFF;
+  width: 100%;
+}
+.logo{
+  height: 210px;
+  width: 210px;
+}
+.film-club{
+  background-color: #F5005B;
+  padding: 15px;
+  flex-basis:  29%;
+
+}
+.site-links{
+  flex-basis: 59%;
+  background-color: #7DDFE8;
+  color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-basis: 100%;
+}
+.links{
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
+.home{
+  width: 100%;
+  height: 80px;
+  flex-basis: 100%;
+  padding-top: 30px;
+  background-color: #00A5BF;
+  color: #FFFFFF;;
+}
+.calender{
+  width: 100%;
+  height: 80px;
+  padding-top: 30px;
+  flex-basis: 100%;
+  background-color: #00B7D3;
+  color: #FFFFFF;
+  font-size: 2em;
+}
+table{
+  border: 2px solid #0B1942;
+}
+.join{
+  width: 100%;
+  height: 80px;
+  padding-top: 30px;
+  flex-basis: 100%;
+  background-color: #00D5E7;
+  color: #FFFFFF;
+}
+.get-involved{
+  color:#0B1942;
+}
+.main-info{
+  width: 320px;
+  height: auto;
+  background-color: #0B1942;
+  margin-left: 20px;
+}
+.footer-wrapper{
+  display: flex;
+  height: 240px;
+  width: 100%;
+  display: flex;
+  color: #FFFFFF;
+
+  width: 100%;
+}
+h2{
+  background-color: #0B1942;
+  color: #FFFFFF;
+}
+.overall-body{
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #0B1942;
+  border: 2px solid red;
+}
+.up-next{
+  background-color: #E2E2E2;
+  margin-left: 30px;
+  height: 500px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.schedule{
+  background-color: #E2E2E2;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+
+}
+.movie-wrapper{
+  flex-basis: 49%;
+
+}
+
+.footer-wrapper{
+  height: 360px;
+  width: 100%;
+  display: inline-block;
+  color: #FFFFFF;
+  width: 100%;
+}
+.site-links-footer{
+  flex-basis: 100%;
+  background-color: #7DDFE8;
+  color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.copyright{
+  height: 120px;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+@media screen and (min-width:769px){
+
+  .film-club{
+    background-color: #F5005B;
+    padding: 15px;
+    flex-basis:  20%;
+
+  }
+  .site-links{
+    flex-basis: 59%;
+    background-color: #7DDFE8;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-basis: 75%;
+  }
+
+  .links{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+  }
+  .home{
+    width: 20%;
+    height: 80px;
+    flex-basis: 100%;
+    padding-top: 30px;
+    background-color: #00A5BF;
+    color: #FFFFFF;;
+  }
+  .calender{
+    width: 20%;
+    height: 80px;
+    padding-top: 30px;
+    flex-basis: 100%;
+    background-color: #00B7D3;
+    color: #FFFFFF;
+    font-size: 2em;
+  }
+  .join{
+    width: 20%;
+    height: 80px;
+    padding-top: 30px;
+    flex-basis: 100%;
+    background-color: #00D5E7;
+    color: #FFFFFF;
+  }
+
+
+
+  .main-info{
+    width: 320px;
+    height: auto;
+    background-color: #0B1942;
+    margin-left: 20px;
+  }
+
+
+
+
+}
